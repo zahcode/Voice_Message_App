@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<PrimaryColors>-->
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#196FB3</color>
+    <color name="colorAccent">#2196F3</color>
+
+    <!--<sameColor>-->
+    <color name="green">#37D825</color>
+    <color name="white">#ffffff</color>
+    <color name="red">#FF0000</color>
+    <color name="counter_color">#be5e08</color>
+    <color name="counter_color2">#E15FED</color>
+    <color name="disabledBtnBg">#999999</color>
+
+</resources>

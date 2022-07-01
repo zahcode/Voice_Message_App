@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".ui.MakeCallActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <RelativeLayout
+                android:id="@+id/all_number_layout"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="32dp"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/radius_background"
+                android:gravity="center">
+
+                <ScrollView
+                    android:id="@+id/all_phones_scroll"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_numbers"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="23dp"
+                        android:gravity="center"
+                        android:padding="5dp"
+                        android:text="Numbers Here"
+                        android:textColor="@color/colorPrimary" />
+
+                </ScrollView>
+
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/tv_total"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:background="@drawable/total"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="0"
+                android:textColor="@color/white" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_below="@+id/all_number_layout"
+                android:id="@+id/etl_enter_number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/enter_number"
+                app:helperTextTextColor="@color/red"
+                android:layout_marginTop="8dp"
+                android:layout_marginBottom="8dp"
+                android:layout_marginStart="32dp"
+                android:layout_marginEnd="32dp"
+                app:helperText="@string/required"
+                app:counterEnabled="true"
+                app:counterMaxLength="11"
+                app:errorEnabled="true"
+                android:maxLines="1"
+                app:prefixText="+2"
+                app:prefixTextColor="@color/green"
+                app:hintAnimationEnabled="true"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/et_enter_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="phone"
+                    android:gravity="center"
+                    android:textColor="@color/colorPrimary"/>
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <Button
+                android:id="@+id/bt_call"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/etl_enter_number"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/primary_btn_bg"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/jaz"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="@string/make_call"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textSize="16sp"
+                tools:ignore="UnusedAttribute" />
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginTop="32dp"
+                android:visibility="invisible"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@id/etl_enter_number"/>
+
+            <Button
+                android:id="@+id/bt_show_data"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/bt_call"
+                android:layout_marginStart="32dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="32dp"
+                android:background="@drawable/primary_btn_bg"
+                android:clickable="true"
+                android:focusable="true"
+                android:fontFamily="@font/jaz"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="@string/show_data"
+                android:textAllCaps="false"
+                android:textColor="@android:color/background_light"
+                android:textSize="16sp"
+                android:visibility="gone"
+                tools:ignore="UnusedAttribute" />
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

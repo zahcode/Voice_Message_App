@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/app projects/voice_api/app/src/main/res/drawable/primary_btn_bg.xml" value="0.1825" />
+        <entry key="..\:/app projects/voice_api/app/src/main/res/drawable/radius_background.xml" value="0.1825" />
+        <entry key="..\:/app projects/voice_api/app/src/main/res/drawable/total.xml" value="0.1825" />
+        <entry key="..\:/app projects/voice_api/app/src/main/res/layout/activity_balance.xml" value="0.27447916666666666" />
+        <entry key="..\:/app projects/voice_api/app/src/main/res/layout/activity_call.xml" value="0.27447916666666666" />
+        <entry key="..\:/app projects/voice_api/app/src/main/res/layout/activity_list_make_call.xml" value="0.27447916666666666" />
+        <entry key="..\:/app projects/voice_api/app/src/main/res/layout/activity_main.xml" value="0.27447916666666666" />
+        <entry key="..\:/app projects/voice_api/app/src/main/res/layout/activity_make_call.xml" value="0.27447916666666666" />
+        <entry key="..\:/app projects/voice_api/app/src/main/res/layout/activity_read_data.xml" value="0.27447916666666666" />
+        <entry key="..\:/app projects/voice_api/app/src/main/res/layout/activity_read_info.xml" value="0.27447916666666666" />
+        <entry key="..\:/app projects/voice_api/app/src/main/res/layout/activity_settings.xml" value="0.27447916666666666" />
+        <entry key="..\:/app projects/voice_api/app/src/main/res/layout/activity_show_data.xml" value="0.27447916666666666" />
+        <entry key="..\:/app projects/voice_api/app/src/main/res/layout/info_item.xml" value="0.27447916666666666" />
+        <entry key="..\:/app projects/voice_api/app/src/main/res/menu/delete_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/app projects/voice_api/app/src/main/res/menu/main_menu.xml" value="0.27447916666666666" />
+        <entry key="..\:/app projects/voice_api/app/src/main/res/menu/main_menu2.xml" value="0.27447916666666666" />
+        <entry key="..\:/app projects/voice_api/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1825" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

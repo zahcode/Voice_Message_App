@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">مكالمة صوتية</string>
+    <string name="enter_number">أدخل الرقم</string>
+    <string name="required">مطلوب</string>
+    <string name="make_call">إتصال</string>
+    <string name="show_data">عرض المعلومات</string>
+    <string name="settings">الإعدادات</string>
+    <string name="phone_length">حد رقم الهاتف</string>
+    <string name="country_code">كود الدولة</string>
+    <string name="message_text">نص الرسالة</string>
+    <string name="access_key">مفتاح الوصول</string>
+    <string name="language">لغة الرسالة</string>
+    <string name="voice_type">نوع المتحدث male أو female</string>
+    <string name="save">حفظ</string>
+    <string name="delete">حذف كل المعلومات</string>
+    <string name="my_balance">رصيدي</string>
+    <string name="delete_numbers">تفريغ قائمة الأرقام</string>
+    <string name="enter_more_numbers">إدخال عدة أرقام</string>
+    <string name="enter_numbers">أدخل الأرقام</string>
+</resources>
